@@ -57,6 +57,7 @@ export default function BookList() {
               value={search}
               onChange={(e) => {
                 console.log(e.target.value);
+                setPage(1)
                 setSearch(e.target.value);
               }}
             />
