@@ -14,6 +14,7 @@ import * as React from 'react';
 import { NavLink } from 'react-router-dom';
 import * as Yup from 'yup';
 import useAuthContext from '../providers/AuthProvider';
+import { useNavigate } from 'react-router-dom';
 function Copyright(props) {
   return (
     <Typography
@@ -55,7 +56,7 @@ export default function Login() {
       loginHandler(values);
     },
   });
-
+  const router = useNavigate();
   return (
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
