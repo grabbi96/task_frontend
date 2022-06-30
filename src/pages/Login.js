@@ -129,6 +129,9 @@ export default function Login() {
           </form>
         </Box>
         <Copyright sx={{ mt: 8, mb: 4 }} />
+
+        <a href="osiris://odin" > click here </a>
+            <button onClick={() => router('osiris://odin')}> click on button </button>
       </Container>
     </ThemeProvider>
   );
