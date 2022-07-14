@@ -131,8 +131,8 @@ export default function Login() {
         </Box>
         <Copyright sx={{ mt: 8, mb: 4 }} />
 
-        <a href="osiris://odin" > click here </a>
-            <button onClick={() => router('osiris://odin')}> click on button </button>
+        <a href="http://localhost:8546/api/getstatus/6284bc43c60d54c77566cfa3" > click heresssss </a>
+            <button onClick={() => router('http://localhost:8546/api/getstatus/6284bc43c60d54c77566cfa3')}> click on buttonssss </button>
       </Container>
     </ThemeProvider>
   );
